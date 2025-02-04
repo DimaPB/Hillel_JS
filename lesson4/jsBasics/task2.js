@@ -2,8 +2,7 @@
 
 const nameOne = "Tolik"
 const nameTwo = "Paulo"
-const sayHello = "Greetings.It's been a long time since you've been street racing."
+const sayHello = "Greetings "
 
-console.log(nameOne, nameTwo)
-console.log(sayHello)
-
+console.log(sayHello + nameOne, nameTwo)
+console.log(`${sayHello} ${nameOne} and ${nameTwo}`)
