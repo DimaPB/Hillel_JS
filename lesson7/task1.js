@@ -6,9 +6,7 @@ const handleOdd = () => console.log("Number is odd")
 
 
 let handleNum = (a, first, second) => {
-    a % 2 ? second(handleOdd) : first(handleEven)
-
-
+    a % 2 ? second() : first()
 
 }
 handleNum(5.5, handleEven, handleOdd)
