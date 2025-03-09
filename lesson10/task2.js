@@ -1,7 +1,10 @@
-import EBook from "./ebook.js"
+import EBook from './ebook.js';
 
+const ebook1 = new EBook(
+	'Treasure Island',
+	'Robert Louis Stevenson',
+	1883,
+	'PDF',
+);
 
-const ebook1 = new EBook("Treasure Island", "Robert Louis Stevenson", 1883, "PDF")
-
-ebook1.printInfo()
-
+ebook1.printInfo();
