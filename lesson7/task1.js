@@ -1,15 +1,11 @@
 const handleEven = () => {
-    return console.log("Number is even")
-}
+	return console.log('Number is even');
+};
 
-const handleOdd = () => console.log("Number is odd")
-
+const handleOdd = () => console.log('Number is odd');
 
 let handleNum = (a, first, second) => {
-    a % 2 ? second() : first()
-
-}
-handleNum(5.5, handleEven, handleOdd)
-handleNum(4, handleEven, handleOdd)
-
-
+	a % 2 ? second() : first();
+};
+handleNum(5.5, handleEven, handleOdd);
+handleNum(4, handleEven, handleOdd);

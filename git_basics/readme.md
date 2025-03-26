@@ -1,1 +1,1 @@
-Just a new file 
+Just a new file

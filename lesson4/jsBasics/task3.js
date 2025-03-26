@@ -1,6 +1,6 @@
 // Завдання 3: Числа та булі
 
-const age = 2
-const ageChecker = age >= 18 
+const age = 2;
+const ageChecker = age >= 18;
 
-console.log(ageChecker, age)
+console.log(ageChecker, age);
